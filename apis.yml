@@ -1,8 +1,26 @@
 aid: aunt-flow
 name: Aunt Flow
-description: Aunt Flow is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aunt Flow is a woman-owned company on a mission to end period poverty by making menstrual
+  products freely accessible in public restrooms the same way toilet paper is. It manufactures and
+  sells free-vend period product dispensers (models P, E, R, and O), organic cotton tampons and pads,
+  touch-free disposal systems, and retail display boxes, serving schools, universities, offices,
+  airports, stadiums, ski resorts, restaurants, health systems, amusement parks, and coworking spaces.
+  Since 2021 the company has donated over 6 million period products to people in need. Aunt Flow is a
+  physical-products and e-commerce business (Techstars-backed) with no public developer API surface; this
+  profile captures its identity, commercial links, and domain-security posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/aunt-flow/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://goauntflow.com/wp-content/uploads/2022/04/Aunt-Flow-Featured-Image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Menstrual Products
+- Period Products
+- Consumer Products
+- E-Commerce
+- Health
+- Sustainability
+- Facilities
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://goauntflow.com/
+- type: Blog
+  url: https://goauntflow.com/blog-the-periodical/
+- type: Pricing
+  url: https://goauntflow.com/pricing
+- type: SignUp
+  url: https://shop.goauntflow.com/
+- type: HelpCenter
+  url: https://6971943.hs-sites.com/knowledge
+- type: Support
+  url: https://goauntflow.com/contact-us/
+- type: TermsOfService
+  url: https://goauntflow.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://goauntflow.com/privacy-policy/
+- type: DomainSecurity
+  url: security/aunt-flow-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
